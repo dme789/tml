@@ -9185,3 +9185,6 @@ textarea.form-control-lg {
     color: #000000;
     border-bottom: 0 !important;
 }
+.row-centered {
+    text-align:center;
+}
