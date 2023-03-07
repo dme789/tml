@@ -286,15 +286,24 @@
     }
 }
 
-
 /*** Service ***/
 .service-row {
     box-shadow: 0 0 45px rgba(0, 0, 0, .08);
+    margin-bottom: 30px;
 }
 
 .service-item {
     border-color: rgba(0, 0, 0, .03) !important;
 }
+
+.service-item h4 {
+    color: black;
+}
+
+.service-item h5 {
+    color: #C8B568;
+}
+
 
 .service-item .btn {
     width: 38px;
@@ -311,6 +320,17 @@
 
 .service-item:hover .btn {
     width: 140px;
+}
+
+/* Packages */
+
+.packages-row {
+    margin-bottom: 30px;
+    box-shadow: 0 0 45px rgb(0 0 0 / 8%)
+}
+
+.packages-item h4 {
+    color: #C8B568;
 }
 
 
