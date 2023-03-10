@@ -335,9 +335,10 @@
 
 
 /*** Feature ***/
+
 @media (min-width: 992px) {
     .container.feature {
-        max-width: 100% !important;
+        margin-bottom: 50px !important;
     }
 
     .feature-text  {
@@ -583,4 +584,34 @@
     color: var(--primary);
     letter-spacing: 1px;
     box-shadow: none;
+}
+
+.seo-description ul {
+    list-style: none;
+    padding: 0;
+    font-size: 15px;
+}
+  
+.seo-description ul li {
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+}
+  
+.seo-description ul i {
+    font-size: 20px;
+    margin-right: 4px;
+    color: var(--primary);
+}
+  
+.seo-description ul li {
+    padding: 15px 0;
+    display: flex;
+    align-items: start;
+}
+  
+.seo-description ul i {
+    font-size: 20px;
+    margin-right: 4px;
+    color: var(--primary);
 }
